@@ -1,38 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+body {
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #23252E;
+  /* background-image: url('https://img.freepik.com/foto-gratis/textura-papel-blanco_1194-2324.jpg?w=2000'); */
+  /* background-image: url('https://images.unsplash.com/photo-1552332271-bf8afb3d4596?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80'); */
+
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body::-webkit-scrollbar {
+  margin-top: 20px;
+  width: 12px;               /* width of the entire scrollbar */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);        /* color of the tracking area */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body::-webkit-scrollbar-thumb {
+  background-color: #84c95f;    /* color of the scroll thumb */
+  border-radius: 15px;       /* roundness of the scroll thumb */
+  border: 3px solid #84c95f;  /* creates padding around scroll thumb */
 }

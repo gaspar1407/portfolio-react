@@ -1,0 +1,179 @@
+
+
+.form-email{
+    align-content: center;
+    display:flex;
+    flex-direction:column;
+    width: 500px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:30px auto;
+    background-color: rgba(0, 0, 0, 0.838) !important;
+    width: 500px;
+    height: 700px;
+    border-radius: 15px;
+}
+
+.title-form{
+    font-size: 39px;
+    padding-left: 0px;
+    margin-bottom: 0;
+    font-weight: 100;
+    text-shadow: 2px 2px 5px rgb(8, 8, 8, .30);
+    color: #84c95f;
+}
+.contenedorInpputss{
+    align-content: center;
+    display:flex;
+    flex-direction:column;
+     width: 800px; 
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px auto;
+
+    
+}
+
+.formEmail{
+    background-color: #23252E;
+    border: 1px solid #84c95f;
+    width: 300px; 
+    color: rgba(196, 248, 166, 0.798);
+    font-size: 20px;
+    border-radius: 5px ;
+}
+
+
+
+
+.mensaje-form{
+    height: 150px;
+    font-size: 20px;
+    background-color: #23252E;
+    border: 1px solid #84c95f;
+    width: 350px; 
+    color: rgba(196, 248, 166, 0.798);
+    border-radius: 5px ;
+}
+
+.h4-form{
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color:#84c95f;
+}
+
+.modal-header{
+    background-color: #84c95f;
+    border: 1px solid #84c95f;
+}
+.dark .modal-body{
+    background-color: #23252E;
+    border: 1px solid #23252E;
+}
+.light .modal-body{
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.modal-footer{
+    background-color: #84c95f;
+    border: 1px solid #84c95f;
+}
+
+.light .formEmail{
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(95, 113, 97, 1);
+    margin-bottom: 0px;
+    padding: 5px 1px;
+    font-size: 1.1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(95, 113, 97, 1);
+}
+
+.dark .formEmail{
+    width: 450px;
+    background-color: #23252E;
+    color: rgba(95, 113, 97, 1);
+    margin-bottom: 0px;
+    padding: 5px 1px;
+    font-size: 1.1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #84c95f;
+}
+.contenedorInpputss{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tituloInput{
+    color: #84c95f;
+    font-size: 23px;
+    text-align: left;
+    width: 100%;
+    margin-left: 320px;
+    margin-top: 20px;
+}
+.light .formEmail:focus{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none !important;
+    outline: none !important;
+    border-color: 1px solid #84c95f;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    width: 450px;
+    color: rgba(95, 113, 97, 1);
+    font-size: 1.1em; 
+}
+
+.dark .formEmail:focus{
+    background-color: #23252E;
+    text-decoration: none !important;
+    outline: none !important;
+    border-color: 1px solid #84c95f;
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    width: 450px;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em; 
+}
+
+.inpuName::placeholder{
+    color: rgba(95, 113, 97, 1);
+    font-size: 1.1em;
+}
+.dark .modalTitle{
+    color: #23252E;
+    margin-left: 15px;
+    margin: 10px;
+}
+.light .modalTitle{
+    color: #fff;
+    margin-left: 15px;
+    margin: 10px;
+}
+
+
+@media (min-width: 1800px ) {
+    .form-container{
+        height: 100vh;
+    }
+    .botoncito{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .form-email{
+       
+        margin:120px auto;
+        
+    }
+}

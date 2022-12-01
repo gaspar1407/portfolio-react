@@ -38,6 +38,9 @@ const Footer = () => {
           <i className="fab fa-facebook"></i>
         </a>
       </div>
+      <div className="derechos">
+        <p>Hecho con mucho cariño por Gaspar Muñoz ❤️</p>
+      </div>
     </div>
   );
 };

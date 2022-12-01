@@ -62,6 +62,17 @@
     left: -10%;
     top: -10%;
 }
+
+.dark .derechos{
+    padding-top: 30px;
+    color: #fff;
+}
+
+.light .derechos{
+    padding-top: 30px;
+    color: black;
+}
+
 @keyframes onHover{
     0%{
         left: -110%;

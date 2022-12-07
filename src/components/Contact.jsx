@@ -23,7 +23,8 @@ export default function Conect({ setModal, modal }) {
   const validador = (inputs) => {
     let validations = {};
     const nameExpresion = /[0-9/'0-9'/,*+._&=():;%$#!|-]/gi;
-    const emailExpresion = /^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/;
+    const emailExpresion =
+      /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
     if (!inputs.nombre) {
       validations.nombre = "Debe ingresar su nombre";
     } else if (nameExpresion.test(inputs.nombre)) {
